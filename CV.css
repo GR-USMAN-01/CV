@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(135, 210, 210);
+}
+.main{
+    border: 1px solid black;
+    width: 950px;
+    height: 1250px ;
+    margin: 0 auto;
+     display: flex;           
+    flex-direction: row;
+}
+.left{
+    width: 350px;
+}
+.pic img{
+    width: 350px;    
+    display: block;
+
+}
+.box{
+    width: 350px;
+    height: 120px ;
+    background-color: rgb(19, 221, 221);
+    text-align: center; 
+    padding-top: 30px;
+    color: white;
+    
+
+}
+.box-1{
+    font-size: xxx-large;
+}
+.box-2{
+    font-size:  x-large;
+    
+}
+
+.box2{
+    width: 350px;
+    height: 720px ;
+    background-color: black;
+    padding-top: 30px;
+    color: white;
+    text-align: justify;
+    
+
+}
+.box2>h1,p{
+    margin: 0px 35px;
+}
+.rb{
+    background-color: white;
+    width: 600px;
+    height: 1250px;
+}
+.black-box{
+    width: 250px; ;
+    height: 25px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    display: inline-block;
+    margin: 0px 35px;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 60px;
+}
+.line{
+    width: 250px ;
+    height: 5px ;
+    background-color: rgb(66, 57, 57);
+    display: inline-block;   
+}
+.p1{
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.rb-HP{
+
+}
+.rb-HP>h1{
+        margin: 30px 35px 20px 35px;
+
+}
+.rb-P>p{
+    margin-top: 20px;
+}
